@@ -1,4 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
+<<<<<<< HEAD
 ### C++ template
 # Prerequisites
 *.d
@@ -35,3 +36,5 @@
 
 .gitignore
 cmake-build-debug/
+=======
+>>>>>>> origin/master

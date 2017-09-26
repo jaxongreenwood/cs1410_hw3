@@ -3,6 +3,10 @@ project(cs1410_hw3)
 
 set(CMAKE_CXX_STANDARD 11)
 
+<<<<<<< HEAD
 #set(SOURCE_FILES barcelona_hw3_task1.cpp)
+=======
+set(SOURCE_FILES barcelona_hw3_task1.cpp)
+>>>>>>> origin/master
 set(SOURCE_FILES barcelona_hw3_task2.cpp)
 add_executable(cs1410_hw3 ${SOURCE_FILES})
