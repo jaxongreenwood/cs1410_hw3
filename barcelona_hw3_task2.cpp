@@ -7,26 +7,16 @@ using namespace std;
 
 class serial {
 private:
-
     int serNum;
     static int count;
 
 public:
-
-    serial(): serNum(0){count++;};
+    serial(): serNum(0){count++;}
 
 
     int getCount() {
         return count;
     }
-
-    void showSerial() {
-
-        cout << "serial number is = " << serNum << endl;
-
-    }
-
-    serial setSerial();
 
 };
 
@@ -35,26 +25,28 @@ int serial::count = 0;
 
 // Prototypes
 
+void ShowSerial(serial sn1);
+
 // Main Program Program
 
-int main(void) {
+int main() {
 
-    serial alpha;      //objects
+    serial alpha;      //make some objects
+    ShowSerial(alpha);
 
-    alpha.setSerial();
+    serial beta;
+    ShowSerial(beta);
 
-    alpha.showSerial();
-
-
+    serial gamma;
+    ShowSerial(gamma);
 
     return 0;
+
 }
 
 // Function Definitions
-serial serial::setSerial() {
+void ShowSerial(serial sn1) {
 
-    serial sn1;
-    sn1.serNum = sn1.count;
+    cout << "I am object number " << sn1.getCount() << endl;
 
-    return sn1;
 }
