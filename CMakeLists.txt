@@ -4,7 +4,7 @@ project(cs1410_hw3)
 set(CMAKE_CXX_STANDARD 11)
 
 
-#set(SOURCE_FILES barcelona_hw3_task1.cpp)
+
 
 #set(SOURCE_FILES barcelona_hw3_task1.cpp)
 
